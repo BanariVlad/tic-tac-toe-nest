@@ -11,7 +11,7 @@ import { TodoModule } from './todo/todo.module';
     ChatModule,
     TicTacToeModule,
     TodoModule,
-    MongooseModule.forRoot('mongodb://localhost:2717'),
+    MongooseModule.forRoot('mongodb://root:example@localhost:27017'),
   ],
   controllers: [AppController],
   providers: [AppService],
