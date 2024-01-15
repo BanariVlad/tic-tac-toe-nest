@@ -35,6 +35,6 @@ export class ChatGateway {
     );
     this.server
       .to(roomId)
-      .emit('chatToClient', { message, senderId: client.id });
+      .emit('chatToClient', { message, username: '123', senderId: client.id });
   }
 }

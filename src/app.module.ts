@@ -9,9 +9,9 @@ import { TodoModule } from './todo/todo.module';
 @Module({
   imports: [
     ChatModule,
-    TicTacToeModule,
-    TodoModule,
-    MongooseModule.forRoot('mongodb://root:example@localhost:27017'),
+    // TicTacToeModule,
+    // TodoModule,
+    // MongooseModule.forRoot('mongodb://root:example@localhost:27017'),
   ],
   controllers: [AppController],
   providers: [AppService],
